@@ -1,2 +1,4 @@
 #!/bin/bash
-local BEST=school
+function localvar {
+	local BEST=school
+{
