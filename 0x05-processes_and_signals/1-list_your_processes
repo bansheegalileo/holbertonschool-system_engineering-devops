@@ -1,2 +1,3 @@
-#!/usr/bin/env bash
-ps -a
+#!/usr/bin/env bas
+#Shows process tree
+pstree -aux
