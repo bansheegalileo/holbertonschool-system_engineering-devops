@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Displays 8 best schools and "bad luck" or "good luck" if values are 4 and 8 respectively
+BS=0
+while [ $BS -lt 10 ]
+do
+        if [ $BS = 4 ]
+        then
+                echo "bad luck"
+        elif [ $BS = 8 ]
+        then
+                echo "good luck"
+        else
+                echo "Best School"
+        fi
+        ((BS++))
+done
