@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Diplays 12 hours of a clock.
+tim=0
+while [ $tim -le 12 ]
+do
+	echo "Hour: $tim"
+	min=1
+	while [ $min -le 59 ]
+	do
+		echo $min
+		(($min++))
+	done
+	(($tim++))
+done
