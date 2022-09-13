@@ -8,7 +8,7 @@ do
 	while [ $min -le 59 ]
 	do
 		echo $min
-		(($min++))
+		((min++))
 	done
-	(($tim++))
+	((tim++))
 done
