@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Displays 10 Best school using the while function.
+BS=0
+while [$BS -lt 10]
+do
+	echo "Best School"
+	let $BS=$((BS++))
+done
