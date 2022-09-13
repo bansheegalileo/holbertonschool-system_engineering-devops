@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Prints 10 Best Schools.
 for ((q=1; q<10; q++))
 do
     echo "Best School"
