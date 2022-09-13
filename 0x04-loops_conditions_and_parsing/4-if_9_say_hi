@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Displays 10 Best school using the while function, displays Hi if BS=9.
+BS=0
+while [ $BS -lt 10 ]
+do
+	echo "Best School"
+	((BS++))
+done
+if [ $BS = 9 ]
+do
+	echo "Hi"
+done
