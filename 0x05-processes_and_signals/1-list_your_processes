@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #Shows process tree
-ps -aux
+ps -faux
