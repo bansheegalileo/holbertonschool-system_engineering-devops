@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#This counts from 1 to 100 and says Fixx, Buzz, and Fizzbuzz at multiples of specified numbers.
+cnt=1
+while [ $cnt -lt 101 ]
+do
+    if [ $((cnt%15)) = 0 ]
+    then
+        echo "FizzBuzz"
+    elif [ $((cnt%3)) = 0 ]
+    then
+        echo "Fizz"
+    elif [ $((cnt%5)) = 0 ]
+    then
+        echo "Buzz"
+    else
+        echo "$cnt"
+    fi
+    ((cnt++))
+done
