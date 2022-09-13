@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Displays 10 Best Schools using the until function.
-BS=1
+BS=0
 until [ $BS = 10 ]
 do
 	echo "Best School"
