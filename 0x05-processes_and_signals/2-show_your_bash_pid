@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Displays pids but only for things with bash in the name
+ps faux | grep "bash"
