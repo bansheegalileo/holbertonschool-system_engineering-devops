@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Displays cwd with initial dashes dashed.
+
+for q in *
+do
+    echo "$q" | cut -d'-' -f2
+done
