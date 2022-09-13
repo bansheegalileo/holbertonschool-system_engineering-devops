@@ -3,6 +3,7 @@
 BS=0
 while [ $BS -lt 10 ]
 do
+	((BS++))
         if [ $BS = 4 ]
         then
                 echo "bad luck"
@@ -12,5 +13,4 @@ do
         else
                 echo "Best School"
         fi
-        ((BS++))
 done
