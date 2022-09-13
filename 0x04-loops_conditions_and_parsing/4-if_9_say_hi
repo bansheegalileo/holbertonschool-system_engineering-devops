@@ -3,10 +3,10 @@
 BS=0
 while [ $BS -lt 10 ]
 do
-	echo "Best School"
-	((BS++))
-done
-if [ $BS = 9 ]
-do
-	echo "Hi"
+        echo "Best School"
+        ((BS++))
+	if [ $BS = 9 ]
+	then
+        	echo "Hi"
+	fi
 done
